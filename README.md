@@ -9,24 +9,15 @@
   
 
 *  [Inception Phase](#inception-phase)
-
-*  [Context](#context)
-
-*  [Problem](#problem)
-
-*  [Goals](#goals)
-
-*  [Tasks](#tasks)
-
-*  [Expected Results](#expected-results)
-
-*  [Related Work](#related-work)
-
-*  [Project Calendar](#project-calendar)
-
-*  [Communication Plan](#communication-plan)
-
-*  [Team Roles](#team-roles)
+	*  [Context](#context)
+	*  [Problem](#problem)
+	*  [Goals](#goals)
+	*  [Tasks](#tasks)
+	*  [Expected Results](#expected-results)
+	*  [Related Work](#related-work)
+	*  [Project Calendar](#project-calendar)
+	*  [Communication Plan](#communication-plan)
+	*  [Team Roles](#team-roles)
 
   
   
@@ -321,7 +312,7 @@ Milestone 4 project presentation; all functionality has been developed
 
 - **Backlog Management** - ** Github Kanban ** to record the backlog of tasks, being possible to associate each branch to an issue, track which issues are on-going, which have already been done or which are giving problems, for example. Each repository will have its issues, and there will be GitHub projects for each Sprint in the organization.
 
- - **Repository** - Github was chosen as the git platform to store the code based on an [organization] (https://github.com/5g-mobility) that aggregates all the project's repositories and documentation.
+ - **Repository** - Github was chosen as the git platform to store the code based on an [organization](https://github.com/5g-mobility) that aggregates all the project's repositories and documentation.
 
 - **Git Workflow** 
 
