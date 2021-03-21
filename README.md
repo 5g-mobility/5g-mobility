@@ -149,7 +149,9 @@ Another chinese company is creating the first 5G electric and autonomous buses.
 
 ## Project Calendar
 
-Agile methodologies are applied, more specifically SCRUM, using Sprints of 2 weeks with rare exceptions.
+Agile methodologies are applied, more specifically SCRUM, using Sprints of 2 weeks with rare exceptions:
+
+![Project Calendar](./assets/timeline.png)
 
 ---
 
