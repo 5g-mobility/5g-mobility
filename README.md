@@ -38,7 +38,7 @@ If possible, we intend to implement a Car 2 Infrastructure / Infrastructure 2 Ca
 Among the most varied objectives to improve the detection of different situations on the roads, the application must provide a dashboard with information about:
 
 ### Traffic cameras and Radars from PASMO project
-1. Number of vehicles to circulate (as well their velocity) at the moment and monthly/yearly
+1. Number of vehicles to circulate (as well their velocity) at the moment and monthly
 2. Traffic
 3. Presence of animals, people or strange objects on the road
 4. See the number of cyclists, runners or people walking on bike lanes
@@ -46,16 +46,16 @@ Among the most varied objectives to improve the detection of different situation
 6. Presence of stopped vehicles on the road
 
 	**Nice to Have**
-	1. Presence of vehicles on the side
-	2. The velocity on the radar can tell whether the road and the weather are in good conditions for the current velocity. If people go too fast the conditions are good.
+	1. Presence of vehicles on the side of the road
+	2. The velocity on the radar can tell whether the road and the weather are in good conditions for the current velocity. If people go too fast the conditions are good
 
 	**Future Work**
-	1. Detect models of cars and check ambiental footprint taking in account max velocity allowed and model consumption.
+	1. Detect models of cars and check ambiental footprint taking in account max velocity allowed and model consumption
 
   
 ### Car 2 Infrastructure / Infrastructure 2 Car
 1. Detect adverse conditions
-	1. Rain sensors
+	1. Rain sensors 
 	2. Light sensors detect that the headlights turned on
 	3. Detect if the fog headlights turned on
 2. Calculate the carbon footprint by detecting the model of the car and how much it consumes
@@ -63,7 +63,7 @@ Among the most varied objectives to improve the detection of different situation
 
 	**Nice to Have**
 
-	1. Check if there are gas stations in the same road within a plausible distance, to know if with the current amount of gas/battery a car can safely reach it. If a substantial number of cars pass with low amounts of gas and a gas station isn’t near, it might be a sign that there is a need to create a new one
+	1. Check if there are gas stations in the same road within a plausible distance, to know if with the current amount of gas/battery, a car can safely reach it. If a substantial number of cars pass with low amounts of gas and a gas station isn’t near, it might be a sign that there is a need to create a new one
 
 	**Future Work**
 
@@ -72,7 +72,7 @@ Among the most varied objectives to improve the detection of different situation
   
 ### VNF Orchestration 
 
-On the other side, it is important to develop a solution that is able to turn on or turn off cameras/servers programmatically, in order to manage the available resources in a better way possible. This will reduce the cost of systems renting, as a cloud service that makes available the VM´s that are used for data processing. Overall, the app may learn in which situations are necessary to change the VM´s state, e.g, if the camera goes down, the associated VM is turned off; If the camera becomes available again, the associated VM is restarted.
+On the other end, it is important to develop a solution that is able to turn on or turn off cameras/servers programmatically, in order to manage the available resources in a better way possible. This will reduce the cost of systems renting, as a cloud service that makes available the VM´s that are used for data processing. Overall, the app may learn in which situations are necessary to change the VM´s state, e.g, if the camera goes down, the associated VM is turned off; If the camera becomes available again, the associated VM is restarted.
 
 ## Tasks
 
@@ -117,6 +117,8 @@ With this system, the users will be able to use the provided data to:
 - Decrease the costs of renting the VMs
 - Learn when it’s in their best interest to increase/decrease the number of lanes
 - Analyze statistics
+
+With the communication between cars, it will be possible to determine the road conditions as well as to warn drivers in case of danger, such as with the arrival of vehicles at high speed.
 
 ## Related Work
 
