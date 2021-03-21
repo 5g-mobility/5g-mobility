@@ -27,7 +27,7 @@ Therefore, the exponential growth of intelligent solutions for the most varied a
 
 ## Problem
 
-It is necessary to develop a service whose objective is to support the traffic control entities on highways, in order to guarantee help in any situations that may occur on them.
+It is necessary to develop a service whose objective is to support the traffic control entities on roads, in order to guarantee help in any situations that may occur on them.
 
 It is intended to create a intelligent solution that takes advantage of traffic cameras and radars from the PASMO project, so that in the cloud computing environments from the 5GASP and the 5GAIner projects, it is possible to detect anomalous and relevant situations in the traffic flow of the A25, Praia da Barra and Costa-Nova.
   
@@ -38,42 +38,27 @@ If possible, we intend to implement a Car 2 Infrastructure / Infrastructure 2 Ca
 Among the most varied objectives to improve the detection of different situations on the roads, the application must provide a dashboard with information about:
 
 ### Traffic cameras and Radars from PASMO project
-
 1. Number of vehicles to circulate (as well their velocity) at the moment and monthly/yearly
-
 2. Traffic
-
 3. Presence of animals, people or strange objects on the road
-
-4. See the number of cyclists, runners or people walking on bike lanes.
-
-5. Detect inflow of the zone - with cameras estimating how many people are in Praia da Barra and Costa Nova. It also serves to tell if there are still parking spaces.
-
+4. See the number of cyclists, runners or people walking on bike lanes
+5. Detect inflow of the zone - with cameras estimating how many people are in Praia da Barra and Costa Nova. It also serves to tell if there are still parking spaces
 6. Presence of stopped vehicles on the road
 
 	**Nice to Have**
-
 	1. Presence of vehicles on the side
-
 	2. The velocity on the radar can tell whether the road and the weather are in good conditions for the current velocity. If people go too fast the conditions are good.
 
 	**Future Work**
-
 	1. Detect models of cars and check ambiental footprint taking in account max velocity allowed and model consumption.
 
   
 ### Car 2 Infrastructure / Infrastructure 2 Car
-
-1. **Detect adverse conditions**
-
+1. Detect adverse conditions
 	1. Rain sensors
-
 	2. Light sensors detect that the headlights turned on
-
 	3. Detect if the fog headlights turned on
-
 2. Calculate the carbon footprint by detecting the model of the car and how much it consumes
-
 3. Warn cars if another one is coming their way with excessive speed. This can be important in terms of vehicles with priority
 
 	**Nice to Have**
@@ -82,7 +67,7 @@ Among the most varied objectives to improve the detection of different situation
 
 	**Future Work**
 
-1. Explore additional features with this type of communication
+	1. Explore additional features with this type of communication
 
   
 ### VNF Orchestration 
@@ -94,27 +79,22 @@ On the other side, it is important to develop a solution that is able to turn on
 **Car Communication (Hugo Almeida e Orlando Macedo)** 
 
 1. Research OBDII protocol
-
 2. Implement a car emulator to receive and generate data
  
 **VNF Orchestration (Hugo Almeida e Miguel Almeida)**
 
 1. Research about VNF in 5G
-  
 2. Integrate developed VNF into 5GASP testbed
 
 **Computer Vision (Miguel Almeida, Orlando Macedo e Carolina Araújo)**
 
 1. Research for Machine Learning and pattern recognition tools
-
 2. Train a custom Object Detection Model  
 
 **Backend (Carolina Araújo e Hugo Almeida )**
 
 1. Define what database to use for each scenario
-
 2. Create the databases schema
-
 3. Define the endpoints necessary to the API
 
 **Frontend (Carolina Araújo e Hugo Almeida)**
