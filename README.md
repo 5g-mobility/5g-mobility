@@ -37,11 +37,20 @@
 
 ## Context
 
+In 2019, 35.704 accidents with victims on Portuguese roads were reported, of which 626 resulted in fatal victims, 2.168 seriously injured and 43.183 with light injuries.
+
+Since its creation, at the end of 2018, have noticed a strong growth in the use of technology using 5G network, since it allows send of data at high speed.
+
+Therefore, the exponential growth of intelligent solutions for the most varied activities, as well as the lack of technology in the market related to 5G ( introduced only at the end of 2018), leads to wanting that there is a good opportunity to create a solution to improve road safety, benefiting from the advantages of using this technology.
   
 
 ## Problem
 
-  
+  It is necessary to develop a service whose objective is to support the traffic control entities on highways, in order to guarantee help to any situations that may happen on them.
+
+It is intended to create a intelligent solution that takes advantage of traffic cameras and radars from PASMO project, so that in the cloud computing environments from 5GASP and 5GAIner projects, it is possible to detect anomalous and relevant situations in the traffic flow of the A25, Praia da Barra and Costa-Nova.
+
+If possible, intends also to implement a v2v communication using 5G, so that it is possible to exchange important info between vehicles.
 
 ## Goals
 
