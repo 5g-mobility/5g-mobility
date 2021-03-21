@@ -128,6 +128,25 @@ With the communication between cars, it will be possible to determine the road c
 Platform still under development based on existing inftra-structores that aims to shorten the idea-to-market process, offering a set of automated services, so that it is possible to develop and test new products built using 5G NFV architecture. 5GAPS offers software support tools, which cover use cases in different domains, in order to allow CI/CD of VNF´s in a secure and trustable environment. 
 
 
+### [5GinFIRE](https://5ginfire.eu)
+
+The main objective of 5GinFIRE is to build and operate NFV (Network Functions Virtualization) as an ecosystem of several experimental installations allowing the instantiation of software over them. It was a 3-year innovation and research project supported by the European Union, starting in January 2017.
+
+With the growing popularity of Cloud services like those from Amazon or Google, more and more applications are hosted on this type of services. In recent years, most telecommunications service providers have incorporated some concepts and Cloud technologies in order to use homogeneous hardware, to disassociate applications from the hardware where they are being used and to manage resources so that they are more efficient. Network Functions Virtualization (NFV) were built based on these characteristics, running Virtual Network Functions (VNFs) on top of homogeneous hardware. Examples of this are routers, firewalls, NAT services, etc., all of which are virtualized, on similar hardware, and managed through NFV.
+Most Cloud infrastructures are centralized data centers, which is not ideal for applications with some requirements such as low latency. Using NFV technology, on many occasions, VNFs are executed in specific locations on the network with the use of 5G, allowing for better latency.
+
+5GinFIRE, based on these conclusions, designed and operated multiple installations with 5G NFV in order to allow the execution of VNFs, the management and allocation of resources and the communication between the various facilities.
+
+### [China 5G Smart Highway](https://www.roadtraffic-technology.com/news/china-5g-smart-highway/)
+
+In China’s most recent plant, 2015-2020, it’s been estimated that investments of upwards of $400 billions will be made in the 5G field, creating at least 8 million new jobs.According to Deloitte, China is leading the race on 5G.
+
+Smart highways are being created, supporting cellular network-coordinated transportation, that will avoid the necessity of having humans controlling the traffic. An intelligent system with prediction abilities based on the traffic information fed in real time is expected to be created to help autonomous vehicles. This system will rely on more than two thousand 5G base stations. 
+
+In Fangshan, the 5G technology will allow autonomous vehicles to communicate with each other in order to avoid collisions. 
+Another chinese company is creating the first 5G electric and autonomous buses. 
+
+
 ## Project Calendar
 
 Agile methodologies are applied, more specifically SCRUM, using Sprints of 2 weeks with rare exceptions.
