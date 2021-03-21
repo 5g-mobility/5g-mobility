@@ -345,10 +345,16 @@ Milestone 4 project presentation; all functionality has been developed
 
 ## Team Roles
 
-**Advisor** - Prof. Diogo Gomes
-**Co-Advisor** - Prof. Joaquim Ferreira
-**Co-Advisor** - Prof. Rui L. Aguiar
-**Product Owner** - Carolina Araújo
-**Software Architect** - Hugo Almeida
-**Team Manager** - Miguel Almeida
-**DevOps Master** - Orlando Macedo
+- **Advisor** - Prof. Diogo Gomes
+
+- **Co-Advisor** - Prof. Joaquim Ferreira
+
+- **Co-Advisor** - Prof. Rui L. Aguiar
+
+- **Product Owner** - Carolina Araújo
+
+- **Software Architect** - Hugo Almeida
+
+- **Team Manager** - Miguel Almeida
+
+- **DevOps Master** - Orlando Macedo
