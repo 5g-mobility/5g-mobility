@@ -122,6 +122,12 @@ With the communication between cars, it will be possible to determine the road c
 
 ## Related Work
 
+
+### [5GASP](https://www.5gasp.eu)
+
+Platform still under development based on existing inftra-structores that aims to shorten the idea-to-market process, offering a set of automated services, so that it is possible to develop and test new products built using 5G NFV architecture. 5GAPS offers software support tools, which cover use cases in different domains, in order to allow CI/CD of VNF´s in a secure and trustable environment. 
+
+
 ## Project Calendar
 
 Agile methodologies are applied, more specifically SCRUM, using Sprints of 2 weeks with rare exceptions.
