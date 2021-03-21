@@ -27,11 +27,11 @@ Therefore, the exponential growth of intelligent solutions for the most varied a
 
 ## Problem
 
-It is necessary to develop a service whose objective is to support the traffic control entities on roads, in order to guarantee help in any situations that may occur on them.
+It is necessary to develop a service whose objective is to support the traffic control entities on roads, in order to have access to information and data processed practically in real-time.
 
 It is intended to create a intelligent solution that takes advantage of traffic cameras and radars from the PASMO project, so that in the cloud computing environments from the 5GASP and the 5GAIner projects, it is possible to detect anomalous and relevant situations in the traffic flow of the A25, Praia da Barra and Costa-Nova.
   
-If possible, we intend to implement a Car 2 Infrastructure / Infrastructure 2 Car communication using 5G, so that it is possible to exchange important information between vehicles.
+It is also intended to implement a Car 2 Infrastructure / Infrastructure 2 Car communication using 5G, so that it is possible to exchange important information between vehicles.
 
 ## Goals
 
