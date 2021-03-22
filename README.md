@@ -128,6 +128,22 @@ With the communication between cars, it will be possible to determine the road c
 Platform still under development based on existing inftra-structores that aims to shorten the idea-to-market process, offering a set of automated services, so that it is possible to develop and test new products built using 5G NFV architecture. 5GAPS offers software support tools, which cover use cases in different domains, in order to allow CI/CD of VNF´s in a secure and trustable environment. 
 
 
+### [PASMO](https://pasmo.pt/project/pasmo)
+
+The main objective of the PASMO project - Open Platform for the development and experimentation of Mobility Solutions is the design, implementation in the field and provision of a support platform for intelligent mobility, open to the participatory experimentation of companies that can effectively collaborate to test (technology ) and validate (market) equipment, protocols, processes, applications, standards and services.
+
+PASMO project is hosted inside IT at Universidade de Aveiro, Portugal. Has as coordinator the Professor Joaquim de Castro Ferreira.
+
+One of the projects associated with PASMO project is the dissertation of a student of UA, Rafael Oliveira. This dissertation is important in the way that has similar features to what should be implemented by us.
+
+The motivation of Rafael was associated with the ambition of having a smart city. Regarding that, our colleague developed the following features:
+- Map with vehicle velocities
+- Dashboard with information about capacity at parking lots
+- Dashboard regarding average velocity, percentage of vehicles caught speeding, etc.
+- Information about radares and cameras, and their geographical location
+- API exposing all the available functionalities
+
+
 ### [5GinFIRE](https://5ginfire.eu)
 
 The main objective of 5GinFIRE is to build and operate NFV (Network Functions Virtualization) as an ecosystem of several experimental installations allowing the instantiation of software over them. It was a 3-year innovation and research project supported by the European Union, starting in January 2017.
