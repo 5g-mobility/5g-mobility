@@ -369,3 +369,13 @@ This statement is proven by the following article from the authorship of [Ambika
 
 ![YOLO Stats](./assets/yoloStats.png)
 
+#### Car Communication
+With regard to car communication, it was important to investigate technologies that could collect information from cars and forward them to our infrastructure. In this way, it was very productive to understand better the projects associated with **5GinFire**. In particular the **SURROGATES experiment**, this experiment used a OBU (on-board Unit) that forwarded the data of the car, that was being provided by the connection to the obd2 port from the car, to a RSU (Road Side Unit) that sent that data to a vOBU (virtual OBU), allocated on a remote location using **VNF**. So, this experiment was very important to understand what kind of technologies were being used and what we could also take advantage of.
+
+The [Car 2 Car consortium](https://www.car-2-car.org/) was also crucial to understand what kind of services are being developed in the present in regard to car communication. Some of the requirements found were inspired by what this consortium is trying to achieve. One of those examples, is precisely the alert of careless drivers to the rest of the motorway users.
+> "The basic principle is cooperation, i.e. the exchange of information between all road users, from road and rail vehicles to cyclists and pedestrians, and between road users and infrastructure elements such as traffic lights and road signs. All that happens in real time and at high speeds.” Fritz Kasslatter, Research Group industrial networks Austria
+
+For more information, please read [this](https://assets.new.siemens.com/siemens/assets/api/uuid:e6d4f0d6ac7b3df9ee402860dc234cd52c7ee4c7/cooperativity-in-motion-en.pdf) article very insightful from **Siemens**.
+
+#### 5G in Highways
+
