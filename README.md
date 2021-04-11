@@ -338,3 +338,34 @@ Milestone 4 project presentation; all functionality has been developed
 -  **Team Manager** - Miguel Almeida
 
 -  **DevOps Master** - Orlando Macedo
+
+# Elaboration Phase
+
+## Requirements Gathering 
+
+1. To collect the requirements, the **first** thing that the group did was try to understand better all the technologies involved. In specific, technologies related to **5G communication**, real-time object detection and projects already made that could help us recognize better the functionalities that could be developed.
+2. After collecting the knowledge about the domain, a **brainstorm** was made between the elements of the group. The major part of the ideas related to this project were made at this brainstorm.
+3. At last, all the ideas/requirements were discussed with the advisor **Diogo Gomes** and co-advisor **Joaquim Ferreira**. The advisors selected in terms of easiness/risk of implementing these requirements, as well as whether they were feasible or not.
+
+## Risks associated with the project
+- The VNF infrastructure that our project will need is still in development, so this is something that the groups needs to have in count, because if the development of this infrastructure don't go as planned, such situation will be very problematic.
+- 5G Broker isn't fully implemented yet, one more time, the good evolution of our project is somewhat dependent on the completion of the 5G Broker.
+- There are legal risks associated with the fact that our project uses video streaming from public motorways, but all those risks were avoided meticulously.
+
+## Contest and State of The Art (SOA)
+### Context
+At this section it will be presented a brief description of how the **system** is expected to be used by the **stakeholders**.
+
+To start, vehicle drivers must have a OBU (on-board unit) that connects to the obd2 port of the vehicle. This connection allows the retrieval of information referent to the car. Lastly, this information is transmitted to our infrastructure, in order to be processed and provided on the web application, such service will help other drivers to drive more safely.
+
+As it was said, the web application will have information associated with the traffic and can be accessed by everyone without the need to make login. The services provided by the web application will be detailed further up but succinctly we can talk about data referent to traffic at a specific zone, number of people cycling or running, and more.
+
+### State of The Art (SOA)
+#### Real-Time Object Detection
+With the objective of implementing a **real-time object detection**, several of algorithms were considered. Among them **SSD** (Single Shot Detector), **R-CNN** (Region-based Convolutional Neural Networks), and, what turned out to be chosen, **YOLO** (You Only Look Once) due to the perception that this was the fastest algorithm with the best results.
+This statement is proven by the following article from the authorship of [Ambika Choudhury](https://analyticsindiamag.com/top-8-algorithms-for-object-detection/).
+
+> According to the researchers at Facebook AI Research, the unified architecture of YOLO is extremely fast in manner. The base YOLO model processes images in real-time at 45 frames per second, while the smaller version of the network, Fast YOLO processes an astounding 155 frames per second while still achieving double the mAP of other real-time detectors. This algorithm outperforms the other detection methods, including DPM and R-CNN, when generalising from natural images to other domains like artwork.
+
+![YOLO Stats](./assets/yoloStats.png)
+
