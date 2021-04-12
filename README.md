@@ -1,4 +1,4 @@
-
+  
 
 # 5G Mobility Documentation
 
@@ -29,6 +29,10 @@
 	* [Use Cases](#use-cases)
 	* [Functional Requirements](#functional-requirements)
 	* [Non-Functional Requirements](#non-functional-requirements)
+	* [System Architecture](#system-architecture)
+		* [Technological Architecture Diagram](#technological-architecture-diagram)
+		* [Deployment Diagram](#deployment-diagram)
+		* [Domain Model](#domain-model)
  
 
 # Inception Phase
@@ -397,7 +401,7 @@ For more information, please read [this](https://assets.new.siemens.com/siemens/
 To understand better if 5G technologies were being used in the highways, the same way that our group intended to do, a brief investigation was made, and we come across, among others, the article from [Road Traffic](https://www.roadtraffic-technology.com/news/china-5g-smart-highway).
 In this article is said Chinese state-owned telecommunication company **China Mobile** is building a 5G smart highway project in Wuhan in Hubei province.
 
-Their intention is to collect real-time traffic information, make AI-assisted forecasts using the data, which will support driverless cars. And this is possible due to the fact that 5G has **low latency** and allows communication between devices at real time.
+Their intention is to collect real-time traffic information, make AI-assisted forecasts using the data, which will support driverless cars. And this is possible due to the fact that 5G has **low latency** and allows communication between devices at real tistrong textme.
 
 #### 5GASP
 **5GASP** is a project developed in [IT of Aveiro](https://www.it.pt/ITSites/Index/3) that will allow the group to test the VNF's created, making sure of CI/CD.
@@ -424,11 +428,15 @@ To summarize, we present the following list with the main actors and a brief des
 
 ### Use Cases
 To help the exposition of the use cases, 3 personas will be used:
+
 1. **João** is a representative from Ascendi, a transport infrastructure operator from Portugal. His job is to check information related with the roads that Ascendi is responsible for. Having that in mind, João uses frequently the web application made available by us.
 2. **José** is also a frequent user of the web application. In his case, he uses it because of his occupation. The transport of goods implies a lot of travel between locations, often needing to check road traffic, and which are the best roads to travel without major consternations.
 3. **Paulo** is very fond of the beach, with the particularity of not really enjoying being close to large crowds. In this way, Paulo uses the web application in order to check which is the beach affluence, making the decision if it is worthwhile to go, according to the current capacity.
 
 To better understand what the users can expect from our system, it will be presented below the different use cases associated with the distinct interactions that can be done using the **web application**.
+
+![use_case_web-3](https://user-images.githubusercontent.com/54395700/114447786-ae9a9f00-9bca-11eb-967b-04c5012ac7c7.png) | ![use_case_car2](https://user-images.githubusercontent.com/54395700/114447803-b22e2600-9bca-11eb-8968-ca098ee35f0b.png)
+
 
 | Number        | Use Case           | Description | Priority |
 | ------------- |:-------------:| :-----:| -----:|
@@ -489,4 +497,28 @@ At this section we describe the services that we intend to provide to the commun
 #### Documentation
 - Documentation is very important for a good understanding of the project in general
 - API documentation becomes extremely important, given that it can be used by a client application without any affiliation with our project
+
+### System Architecture
+
+#### Technological Architecture Diagram
+
+To understand how our system will work as a whole, we defined the following technological architecture, that shows how the different layers and the components inside them are linking together.
+
+![Architecture (1) (1)](https://user-images.githubusercontent.com/54395700/114446964-bd348680-9bc9-11eb-8585-6f38dda6bdfc.png)
+
+
+
+
+#### Deployment Diagram
+
+![deployment_diagram (1)](https://user-images.githubusercontent.com/54395700/114446741-7c3c7200-9bc9-11eb-81a8-d19b8a0199a8.png)
+
+
+
+
+### Domain Model
+
+
+![domain_modelpng](https://user-images.githubusercontent.com/54395700/114447693-91fe6700-9bca-11eb-904e-d848af651dc9.png)
+
 
