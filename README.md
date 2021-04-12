@@ -503,21 +503,21 @@ At this section we describe the services that we intend to provide to the commun
 
 To understand how our system will work as a whole, we defined the following technological architecture, that shows how the different layers and the components inside them are linking together.
 
-
+![Architecture Diagram](./assets/arquitetura.png)
 
 
 
 
 #### Deployment Diagram
 
-
+![Deployment Diagram](./assets/deployment.png)
 
 
 
 
 ### Domain Model
 
-
+![Domain Model](./assets/domain.png)
 
 
 
