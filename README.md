@@ -435,7 +435,6 @@ To help the exposition of the use cases, 3 personas will be used:
 
 To better understand what the users can expect from our system, it will be presented below the different use cases associated with the distinct interactions that can be done using the **web application**.
 
-![use_case_web-3](https://user-images.githubusercontent.com/54395700/114447786-ae9a9f00-9bca-11eb-967b-04c5012ac7c7.png) | ![use_case_car2](https://user-images.githubusercontent.com/54395700/114447803-b22e2600-9bca-11eb-8968-ca098ee35f0b.png)
 
 
 | Number        | Use Case           | Description | Priority |
@@ -504,14 +503,14 @@ At this section we describe the services that we intend to provide to the commun
 
 To understand how our system will work as a whole, we defined the following technological architecture, that shows how the different layers and the components inside them are linking together.
 
-![Architecture (1) (1)](https://user-images.githubusercontent.com/54395700/114446964-bd348680-9bc9-11eb-8585-6f38dda6bdfc.png)
+![Architecture (1) (1)](https://user-images.githubusercontent.com/54395700/114446964-bd348680-9bc9-11eb-8585-6f38dda6bdfc.png =250x250)
 
 
 
 
 #### Deployment Diagram
 
-![deployment_diagram (1)](https://user-images.githubusercontent.com/54395700/114446741-7c3c7200-9bc9-11eb-81a8-d19b8a0199a8.png)
+![deployment_diagram (1)](https://user-images.githubusercontent.com/54395700/114446741-7c3c7200-9bc9-11eb-81a8-d19b8a0199a8.png =250x250)
 
 
 
@@ -519,6 +518,6 @@ To understand how our system will work as a whole, we defined the following tech
 ### Domain Model
 
 
-![domain_modelpng](https://user-images.githubusercontent.com/54395700/114447693-91fe6700-9bca-11eb-904e-d848af651dc9.png)
+![domain_modelpng](https://user-images.githubusercontent.com/54395700/114447693-91fe6700-9bca-11eb-904e-d848af651dc9.png =250x250)
 
 
