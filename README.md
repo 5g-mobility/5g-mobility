@@ -402,21 +402,75 @@ In addition, if a citizen has a car equipped with technology that allows c2i-i2c
 
 To summarize, we present the following list with the main actors and a brief description:
 - User of the web application
-	- This actor uses the web application to check the traffic in a certain place or just to verify the weather in a zone. The web application doesn't have authentication, so anyone who needs information about the traffic can just open the browser, type our url, and prove whatever was needed.
+	- This actor uses the web application to check the traffic in a certain place or just to verify the weather in a zone. The web application doesn't have authentication, so anyone who needs information about the traffic can just open the browser, type our url, and prove whatever was needed. So, both groups enunciated before belong in here.
 - User with the OBU (c2i-i2c)
 	- This actor will have a technology in his car that will allow sending data directly to a dedicated infrastructure. After, the user will then have access to data on what can be expected during his trip. Weather conditions or dangerous behavior on the part of other road users are some examples.
 
 ### Use Cases
-To better understand what the users can expect from our system, it will be presented below the different use cases associated with the distinct interactions that can be done using the web application.
+To help the exposition of the use cases, 3 personas will be used:
+1. **João** is a representative from Ascendi, a transport infrastructure operator from Portugal. His job is to check information related with the roads that Ascendi is responsible for. Having that in mind, João uses frequently the web application made available by us.
+2. **José** is also a frequent user of the web application. In his case, he uses it because of his occupation. The transport of goods implies a lot of travel between locations, often needing to check road traffic, and which are the best roads to travel without major consternations.
+3. **Paulo** is very fond of the beach, with the particularity of not really enjoying being close to large crowds. In this way, Paulo uses the web application in order to check which is the beach affluence, making the decision if it is worthwhile to go, according to the current capacity.
 
-| Number        | Use Case           | Brief Description  | Priority |
+To better understand what the users can expect from our system, it will be presented below the different use cases associated with the distinct interactions that can be done using the **web application**.
+
+| Number        | Use Case           | Description | Priority |
 | ------------- |:-------------:| :-----:| -----:|
-| 1 | check number of vehicles currently circulating |  | High |
-| 2 | see information about the traffic |  |
-| 3 | check weather and adverse weather conditions |  | High |
-| 4 | being alerted when some driver is being careless |  | High |
-| 5 | verify if there are animals on the road or other strange objects |  | Medium |
-| 6 | check the influx to a given area |  | Medium |
-| 7 | see carbon footprint |  | Medium |
-| 8 | check stopped cars on the road |  | Low |
+| 1 | check number of vehicles currently circulating | José goes to the web app. As the tab shown is the one of the dashboard, he just has to select which is the location he wants to check the traffic on, and at that moment he decides whether it makes sense or not to go that route. | High |
+| 2 | see information about the traffic | In order to better understand if the roads monitored by João are in good condition or not, namely if they have been in a lot of traffic. João has the possibility to check this type of information from the ROAD INFO tab. |
+| 3 | check weather and adverse weather conditions | José is not sure if he can take an open box van to deliver a certain order. To be sure that there will be no surprises, he goes to the app, and visualize the updated climatic environment of the area. | High |
+| 4 | being alerted when some driver is being careless | José needs to pay close attention to the variables on the road. With that in mind, José uses the ROAD DANGER EVENTS functionality to be alerted whenever a road user is being careless, traveling for example at excessive speed. | High |
+| 5 | verify if there are animals on the road or other strange objects | If there are accidents on the highways that are caused by foreign objects on the road or by animals, the alleged culprits for that accident are the responsible entities for that road. Taking this into account, João uses the web application in order to be alerted when any type of foreign object is detected on the road. Acting quickly in accordance with what has been warned, avoiding greater evils. | Medium |
+| 6 | check the influx to a given area | Paulo had a sudden urge to go for a run on the beach. But that will only be possible if the area is not overcrowded. So, Paulo opens the browser and goes to our web application. What he sees on the dashboard after selecting the desired zone is that the beach affluence is low, so he can go on a race without worries. | Medium |
+| 7 | see carbon footprint | Environmental impact is a major concern these days. The transport infrastructure operators have a lot to gain by monitoring the carbon footprint of their highways. The sustainability stamp is a good indication of social responsibility. Following this thought, João uses the CONDITIONS tab of the web application to check the carbon footprint for a given highway. | Medium |
+| 8 | check stopped cars on the road | Once again, José needs to move around constantly, it is something that is inherent in his profession. Therefore, he is constantly checking for risks on the roads he will be driving, such as accidents or cars stopped due to a breakdown. For this, he uses the functionality that alerts for road risks in the ROAD INFO tab. | Low |
+
+Note: Concerning the second actor, User with the OBU (c2i-i2c). The referenced actor, doesn't have exactly an interaction with a system. What does he have, is the need to connect the OBU to the obd2 port of the vehicle, and after that, the sending of data to the infrastructure is automatic, so, no interaction needed.
+
+### Functional Requirements
+#### Business Requirements
+With regard to business requirements we can enumerate the following:
+- An application that allows to take advantage of 5g technologies, as well of cameras and radars installed on Portuguese highways in order to monitor traffic and other situations that arise from it
+- Another technologie with the intent of communication between cars, using the obd2 protocol and once again 5g intercommunication. It will be possible to pass information between cars, so that, risk situations are avoided or minimized. In addition to reducing risk situations, we also aim to make an estimate regarding vehicle pollution.
+#### Stakeholder Requirements
+At this section we describe the services that we intend to provide to the community. And those services will all be delivered via web application. Below is a list we the requirements.
+- Provide a dashboard were the client can see information related to:
+	- weather conditions by zone
+	- traffic inflow
+	- number of vehicles circulating a specific road, also associating data related to speed
+	- number of cars cought speeding
+	- some statistics associated with physical activities made by people on bike lanes, like walking or riding a bike
+	- alerts about danger behaviours on the roads
+	- allow the visualization of the carbon footprint for a specific zone
+#### Solution requirements
+- The use of 5g communications is mandatory, in order to reduce the latency between devices.
+- The management of the VNF’s associated with the cameras must be designed using a elastic approach, meaning that, VNF's should be created and erased as appropriate.
+- Radars must be used in addition to cameras, with the purpose of having **sensor fusion**, which will allow to obtain more reliable results.
+- It's necessary to have a web application that allows the display of the information collected through the various technologies
+- It should be followed a service-oriented development
+#### Authorization levels
+- The web application will be available for everyone, without the need to register and create login.
+- So, with regard to levels of authorization, it can be said that there is only one authorization level, that applies to all.
+
+### Non-functional Requirements
+#### Usability
+- The web application must be easy to use
+- The user must be able to perform all possible tasks without the need for help
+- For the user to reach the different workflows he should not need to make many clicks
+#### Security
+- The web application will be open so there will be no need to login
+- With regard to data, they must be isolated on a machine
+#### Reliability
+- The code must be robust and tested extensively in order to increase the reliability of the system, preventing applications from failing due to bugs
+#### Performance
+- The system must perform well as long as the continuous response and information update is maintained when dealing with continuous data streaming
+#### Availability
+- The system must work 24/7, always providing all available services
+- As the implemented architecture follows a service orientation, if it is necessary to replace one of these services, this exchange should not significantly impact the normal behavior of the service in question
+#### Scalability
+- It is necessary to bear in mind that as traffic cameras are added to the system, it is also necessary to increase the computational power, namely the number of VNFs to analyze the streaming of the cameras
+- It is necessary to be careful with the workload that is being requested by the backend logic, if necessary, the backend must be replicated in different machines so that the computational power satisfies the system requirements
+#### Documentation
+- Documentation is very important for a good understanding of the project in general
+- API documentation becomes extremely important, given that it can be used by a client application without any affiliation with our project
 
