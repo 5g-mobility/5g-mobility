@@ -4,15 +4,15 @@
 ### Table of contents
 
 *  [Inception Phase](#inception-phase)
-*  [Context](#context)
-*  [Problem](#problem)
-*  [Goals](#goals)
-*  [Tasks](#tasks)
-*  [Expected Results](#expected-results)
-*  [Related Work](#related-work)
-*  [Project Calendar](#project-calendar)
-*  [Communication Plan](#communication-plan)
-*  [Team Roles](#team-roles)
+	*  [Context](#context)
+	*  [Problem](#problem)
+	*  [Goals](#goals)
+	*  [Tasks](#tasks)
+	*  [Expected Results](#expected-results)
+	*  [Related Work](#related-work)
+	*  [Project Calendar](#project-calendar)
+	*  [Communication Plan](#communication-plan)
+	*  [Team Roles](#team-roles)
  
 
 # Inception Phase
