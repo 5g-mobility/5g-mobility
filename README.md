@@ -503,14 +503,14 @@ At this section we describe the services that we intend to provide to the commun
 
 To understand how our system will work as a whole, we defined the following technological architecture, that shows how the different layers and the components inside them are linking together.
 
-![Architecture (1) (1)](https://user-images.githubusercontent.com/54395700/114446964-bd348680-9bc9-11eb-8585-6f38dda6bdfc.png =250x250)
+
 
 
 
 
 #### Deployment Diagram
 
-![deployment_diagram (1)](https://user-images.githubusercontent.com/54395700/114446741-7c3c7200-9bc9-11eb-81a8-d19b8a0199a8.png =250x250)
+
 
 
 
@@ -518,6 +518,6 @@ To understand how our system will work as a whole, we defined the following tech
 ### Domain Model
 
 
-![domain_modelpng](https://user-images.githubusercontent.com/54395700/114447693-91fe6700-9bca-11eb-904e-d848af651dc9.png =250x250)
+
 
 
