@@ -1,4 +1,5 @@
 
+
 # 5G Mobility Documentation
 
 ### Table of contents
@@ -13,6 +14,21 @@
 	*  [Project Calendar](#project-calendar)
 	*  [Communication Plan](#communication-plan)
 	*  [Team Roles](#team-roles)
+* [Elaboration Phase](#elaboration-phase)
+	* [Requirements Gathering](#requirements-gathering)
+	* [Risks associated with the project](#risks-associated-with-the-project)
+	* [Context and State of The Art (SOA)](#context-and-state-of-the-art-soa)
+		* [Context](#elaboration-phase-context-and-state-of-the-art-soa-context)
+		* [State of The Art (SOA)](#state-of-the-art-soa)
+			* [Real-Time Object Detection](#real-time-object-detection)
+			* [Car Communication](#car-communication)
+			* [5G in Highways](#5g-in-highways)
+			* [5GASP](#5gasp)
+			* [PASMO](#pasmo-not-working)
+	* [Actors](#actors)
+	* [Use Cases](#use-cases)
+	* [Functional Requirements](#functional-requirements)
+	* [Non-Functional Requirements](#non-functional-requirements)
  
 
 # Inception Phase
@@ -352,7 +368,7 @@ Milestone 4 project presentation; all functionality has been developed
 - 5G Broker isn't fully implemented yet, one more time, the good evolution of our project is somewhat dependent on the completion of the 5G Broker.
 - There are legal risks associated with the fact that our project uses video streaming from public motorways, but all those risks were avoided meticulously.
 
-## Contest and State of The Art (SOA)
+## Context and State of The Art (SOA)
 ### Context
 At this section it will be presented a brief description of how the **system** is expected to be used by the **stakeholders**.
 
