@@ -378,4 +378,45 @@ The [Car 2 Car consortium](https://www.car-2-car.org/) was also crucial to under
 For more information, please read [this](https://assets.new.siemens.com/siemens/assets/api/uuid:e6d4f0d6ac7b3df9ee402860dc234cd52c7ee4c7/cooperativity-in-motion-en.pdf) article very insightful from **Siemens**.
 
 #### 5G in Highways
+To understand better if 5G technologies were being used in the highways, the same way that our group intended to do, a brief investigation was made, and we come across, among others, the article from [Road Traffic](https://www.roadtraffic-technology.com/news/china-5g-smart-highway).
+In this article is said Chinese state-owned telecommunication company **China Mobile** is building a 5G smart highway project in Wuhan in Hubei province.
+
+Their intention is to collect real-time traffic information, make AI-assisted forecasts using the data, which will support driverless cars. And this is possible due to the fact that 5G has **low latency** and allows communication between devices at real time.
+
+#### 5GASP
+**5GASP** is a project developed in [IT of Aveiro](https://www.it.pt/ITSites/Index/3) that will allow the group to test the VNF's created, making sure of CI/CD.
+
+#### PASMO
+PASMO project was implemented with the intention of making the city of Aveiro a lot smarter. With the use of radars, cameras that monitor the vehicle traffic and sensors that check the occupation of the parking lots of Barra beach.
+
+The various services implemented in this project can be accessed at this [web portal](https://pasmo.pt/project/pasmo). The portal allows a better perception of the monitored places, most of all, allows a better informed reflection about the places to visit or the roads to travel.
+
+### Actors
+It is readily possible to understand two groups that will have great benefit with our project.
+
+On the one hand, the **transport infrastructure operators**, this entities will be able to collect useful information about the state of the roads, wrong behavior on the part of drivers, as well as pollution statistics associated with an specific area.
+
+On the other hand, **ordinary citizens** can also take advantage of our services in order to find out, for example, if it is worthwhile to go to a certain place, given that it may be affluent and therefore is overcrowded. Or something as simple as checking the traffic in a certain area.
+
+In addition, if a citizen has a car equipped with technology that allows c2i-i2c communication, then she/he can also receive important information about the variables associated with the trip. Such as, climatic conditions or behavior of other road users that may put their own health at risk, as is the case of users who are speeding, therefore, requiring greater care.
+
+To summarize, we present the following list with the main actors and a brief description:
+- User of the web application
+	- This actor uses the web application to check the traffic in a certain place or just to verify the weather in a zone. The web application doesn't have authentication, so anyone who needs information about the traffic can just open the browser, type our url, and prove whatever was needed.
+- User with the OBU (c2i-i2c)
+	- This actor will have a technology in his car that will allow sending data directly to a dedicated infrastructure. After, the user will then have access to data on what can be expected during his trip. Weather conditions or dangerous behavior on the part of other road users are some examples.
+
+### Use Cases
+To better understand what the users can expect from our system, it will be presented below the different use cases associated with the distinct interactions that can be done using the web application.
+
+| Number        | Use Case           | Brief Description  | Priority |
+| ------------- |:-------------:| :-----:| -----:|
+| 1 | check number of vehicles currently circulating |  | High |
+| 2 | see information about the traffic |  |
+| 3 | check weather and adverse weather conditions |  | High |
+| 4 | being alerted when some driver is being careless |  | High |
+| 5 | verify if there are animals on the road or other strange objects |  | Medium |
+| 6 | check the influx to a given area |  | Medium |
+| 7 | see carbon footprint |  | Medium |
+| 8 | check stopped cars on the road |  | Low |
 
