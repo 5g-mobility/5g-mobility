@@ -510,12 +510,16 @@ To understand how our system will work as a whole, we defined the following tech
 
 #### Deployment Diagram
 
+The deployment diagram describes pieces of hardware to be used and the interactions between them. All the technologies are relatively standard, with the exception of the use of VNF to the deployment of the various modules. 
+
 ![Deployment Diagram](./assets/deployment.png)
 
 
 
 
 ### Domain Model
+
+The domain model tries to describe do conceptual model of the domain, that incorporates the behavior and data.
 
 ![Domain Model](./assets/domain.png)
 
