@@ -30,7 +30,6 @@
             *  [5G in Highways](#5g-in-highways)
             *  [5GASP](#5gasp)
             *  [PASMO](#pasmo-not-working)
-
     *  [Actors](#actors)
     *  [Use Cases](#use-cases)
     *  [Functional Requirements](#functional-requirements)
