@@ -844,7 +844,7 @@ To better understand what the users can expect from our system, it will be prese
 
 | Number | Use Case | Description | Priority |
 
-| ------------- |:-------------:| :-----:| -----:|
+| ------------- | ------------- | ----- | ----- |
 
 | 1 | check number of vehicles currently circulating | José goes to the web app. As the tab shown is the one of the dashboard, he just has to select which is the location he wants to check the traffic on, and at that moment he decides whether it makes sense or not to go that route. | High |
 
