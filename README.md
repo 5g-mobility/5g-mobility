@@ -839,29 +839,16 @@ To help the exposition of the use cases, 3 personas will be used:
 To better understand what the users can expect from our system, it will be presented below the different use cases associated with the distinct interactions that can be done using the **web application**.
 
   
-  
-  
-
 | Number | Use Case | Description | Priority |
-
-| ------------- | ------------- | ----- | ----- |
-
+| ------------- | :-------------: | :-----: | -----: |
 | 1 | check number of vehicles currently circulating | José goes to the web app. As the tab shown is the one of the dashboard, he just has to select which is the location he wants to check the traffic on, and at that moment he decides whether it makes sense or not to go that route. | High |
-
 | 2 | see information about the traffic | In order to better understand if the roads monitored by João are in good condition or not, namely if they have been in a lot of traffic. João has the possibility to check this type of information from the ROAD INFO tab. |
-
 | 3 | check weather and adverse weather conditions | José is not sure if he can take an open box van to deliver a certain order. To be sure that there will be no surprises, he goes to the app, and visualize the updated climatic environment of the area. | High |
-
 | 4 | being alerted when some driver is being careless | José needs to pay close attention to the variables on the road. With that in mind, José uses the ROAD DANGER EVENTS functionality to be alerted whenever a road user is being careless, traveling for example at excessive speed. | High |
-
 | 5 | verify if there are animals on the road or other strange objects | If there are accidents on the highways that are caused by foreign objects on the road or by animals, the alleged culprits for that accident are the responsible entities for that road. Taking this into account, João uses the web application in order to be alerted when any type of foreign object is detected on the road. Acting quickly in accordance with what has been warned, avoiding greater evils. | Medium |
-
 | 6 | check the influx to a given area | Paulo had a sudden urge to go for a run on the beach. But that will only be possible if the area is not overcrowded. So, Paulo opens the browser and goes to our web application. What he sees on the dashboard after selecting the desired zone is that the beach affluence is low, so he can go on a race without worries. | Medium |
-
 | 7 | see carbon footprint | Environmental impact is a major concern these days. The transport infrastructure operators have a lot to gain by monitoring the carbon footprint of their highways. The sustainability stamp is a good indication of social responsibility. Following this thought, João uses the CONDITIONS tab of the web application to check the carbon footprint for a given highway. | Medium |
-
 | 8 | check stopped cars on the road | Once again, José needs to move around constantly, it is something that is inherent in his profession. Therefore, he is constantly checking for risks on the roads he will be driving, such as accidents or cars stopped due to a breakdown. For this, he uses the functionality that alerts for road risks in the ROAD INFO tab. | Low |
-
   
 
 Note: Concerning the second actor, User with the OBU (c2i-i2c). The referenced actor, doesn't have exactly an interaction with a system. What does he have, is the need to connect the OBU to the obd2 port of the vehicle, and after that, the sending of data to the infrastructure is automatic, so, no interaction needed.
