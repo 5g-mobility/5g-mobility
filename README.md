@@ -10,61 +10,34 @@
   
 
 *  [Inception Phase](#inception-phase)
-
     *  [Context](#context)
-
     *  [Problem](#problem)
-
     *  [Goals](#goals)
-
     *  [Tasks](#tasks)
-
     *  [Expected Results](#expected-results)
-
     *  [Related Work](#related-work)
-
     *  [Project Calendar](#project-calendar)
-
     *  [Communication Plan](#communication-plan)
-
     *  [Team Roles](#team-roles)
-
 *  [Elaboration Phase](#elaboration-phase)
-
     *  [Requirements Gathering](#requirements-gathering)
-
     *  [Risks associated with the project](#risks-associated-with-the-project)
-
     *  [Context and State of The Art (SOA)](#context-and-state-of-the-art-soa)
-
         *  [Context](#elaboration-phase-context-and-state-of-the-art-soa-context)
-
         *  [State of The Art (SOA)](#state-of-the-art-soa)
-
             *  [Real-Time Object Detection](#real-time-object-detection)
-
             *  [Car Communication](#car-communication)
-
             *  [5G in Highways](#5g-in-highways)
-
             *  [5GASP](#5gasp)
-
             *  [PASMO](#pasmo-not-working)
 
     *  [Actors](#actors)
-
     *  [Use Cases](#use-cases)
-
     *  [Functional Requirements](#functional-requirements)
-
     *  [Non-Functional Requirements](#non-functional-requirements)
-
     *  [System Architecture](#system-architecture)
-
     *  [Technological Architecture Diagram](#technological-architecture-diagram)
-
     *  [Deployment Diagram](#deployment-diagram)
-
     *  [Domain Model](#domain-model)
 
   
