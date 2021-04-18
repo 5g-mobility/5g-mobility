@@ -11,61 +11,61 @@
 
 *  [Inception Phase](#inception-phase)
 
-*  [Context](#context)
+    *  [Context](#context)
 
-*  [Problem](#problem)
+    *  [Problem](#problem)
 
-*  [Goals](#goals)
+    *  [Goals](#goals)
 
-*  [Tasks](#tasks)
+    *  [Tasks](#tasks)
 
-*  [Expected Results](#expected-results)
+    *  [Expected Results](#expected-results)
 
-*  [Related Work](#related-work)
+    *  [Related Work](#related-work)
 
-*  [Project Calendar](#project-calendar)
+    *  [Project Calendar](#project-calendar)
 
-*  [Communication Plan](#communication-plan)
+    *  [Communication Plan](#communication-plan)
 
-*  [Team Roles](#team-roles)
+    *  [Team Roles](#team-roles)
 
 *  [Elaboration Phase](#elaboration-phase)
 
-*  [Requirements Gathering](#requirements-gathering)
+    *  [Requirements Gathering](#requirements-gathering)
 
-*  [Risks associated with the project](#risks-associated-with-the-project)
+    *  [Risks associated with the project](#risks-associated-with-the-project)
 
-*  [Context and State of The Art (SOA)](#context-and-state-of-the-art-soa)
+    *  [Context and State of The Art (SOA)](#context-and-state-of-the-art-soa)
 
-*  [Context](#elaboration-phase-context-and-state-of-the-art-soa-context)
+        *  [Context](#elaboration-phase-context-and-state-of-the-art-soa-context)
 
-*  [State of The Art (SOA)](#state-of-the-art-soa)
+        *  [State of The Art (SOA)](#state-of-the-art-soa)
 
-*  [Real-Time Object Detection](#real-time-object-detection)
+            *  [Real-Time Object Detection](#real-time-object-detection)
 
-*  [Car Communication](#car-communication)
+            *  [Car Communication](#car-communication)
 
-*  [5G in Highways](#5g-in-highways)
+            *  [5G in Highways](#5g-in-highways)
 
-*  [5GASP](#5gasp)
+            *  [5GASP](#5gasp)
 
-*  [PASMO](#pasmo-not-working)
+            *  [PASMO](#pasmo-not-working)
 
-*  [Actors](#actors)
+    *  [Actors](#actors)
 
-*  [Use Cases](#use-cases)
+    *  [Use Cases](#use-cases)
 
-*  [Functional Requirements](#functional-requirements)
+    *  [Functional Requirements](#functional-requirements)
 
-*  [Non-Functional Requirements](#non-functional-requirements)
+    *  [Non-Functional Requirements](#non-functional-requirements)
 
-*  [System Architecture](#system-architecture)
+    *  [System Architecture](#system-architecture)
 
-*  [Technological Architecture Diagram](#technological-architecture-diagram)
+    *  [Technological Architecture Diagram](#technological-architecture-diagram)
 
-*  [Deployment Diagram](#deployment-diagram)
+    *  [Deployment Diagram](#deployment-diagram)
 
-*  [Domain Model](#domain-model)
+    *  [Domain Model](#domain-model)
 
   
 
@@ -884,19 +884,19 @@ At this section we describe the services that we intend to provide to the **comm
 
 - Provide a **dashboard** were the client can see information related to:
 
-- weather conditions by zone
+    - weather conditions by zone
 
-- traffic inflow
+    - traffic inflow
 
-- number of vehicles circulating a specific road, also associating data related to speed
+    - number of vehicles circulating a specific road, also associating data related to speed
 
-- number of cars caught speeding
+    - number of cars caught speeding
 
-- some statistics associated with physical activities made by people on bike lanes, like walking or riding a bike
+    - some statistics associated with physical activities made by people on bike lanes, like walking or riding a bike
 
-- alerts about danger behaviors on the roads
+    - alerts about danger behaviors on the roads
 
-- allow the visualization of the carbon footprint for a specific zone
+    - allow the visualization of the carbon footprint for a specific zone
 
 ### Solution requirements
 
