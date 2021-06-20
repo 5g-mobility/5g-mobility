@@ -550,7 +550,7 @@ Milestone 4 project presentation; all functionality has been developed
 
   
 
--  **(Not Planned)**
+1.  **Technical report #3**
 
   
 
